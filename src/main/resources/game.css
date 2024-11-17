@@ -1,0 +1,31 @@
+/* game.css */
+.grid-pane {
+    -fx-background-color: #0000FF;
+    -fx-padding: 10 10 10 30;
+    -fx-hgap: 5;
+    -fx-vgap: 5;
+}
+
+/* Player and Enemy Styling */
+.player {
+    -fx-background-color: #00ff00;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-min-width: 50px;
+    -fx-min-height: 50px;
+    -fx-alignment: center;
+}
+
+.enemy {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-min-width: 50px;
+    -fx-min-height: 50px;
+    -fx-alignment: center;
+}
+
+
+.grid-pane label.instruction {
+    -fx-font-weight: bold;
+}
